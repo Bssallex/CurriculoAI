@@ -11,6 +11,7 @@ public record DadosUsuario(Long id,
                            String telefone,
                            List<String> cursos,
                            List<String> idiomas,
+                           List<Experiencias> experiencias,
                            FormacaoAcademica formacao
                            ) {
 }
