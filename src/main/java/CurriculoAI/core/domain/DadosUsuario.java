@@ -8,7 +8,7 @@ public record DadosUsuario(Long id,
                            String nome,
                            String email,
                            String endereco,
-                           int telefone,
+                           String telefone,
                            List<String> cursos,
                            List<String> idiomas,
                            FormacaoAcademica formacao
